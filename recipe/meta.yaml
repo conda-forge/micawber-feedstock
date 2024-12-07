@@ -1,13 +1,13 @@
 {% set name = "micawber" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0ac5814b65ff2a781fb1394b91a23a8a95f73492b6bb8f705baeead82eadd543
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 20dc4e074c17a741880b489cf2558845c050987f5b796c8ff07ea2ff011a8c8d
 
 build:
   noarch: python
